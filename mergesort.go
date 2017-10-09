@@ -1,5 +1,6 @@
 package algorithms
 
+// O(n * log(n))
 func MergeSort(list []int) []int {
 	if len(list) == 1 {
 		return list
